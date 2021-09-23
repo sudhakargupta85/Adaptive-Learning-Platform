@@ -1,0 +1,59 @@
+html {
+  background-color: #E4E9FD;
+  background-image: url('/images/front1.jpg');
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+p{
+  position: absolute;
+  color: black;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-shadow: 5%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.box {
+  position: absolute;
+  left: 600px;
+  top: 150px;
+  align-items: center;
+  max-width: 400px;
+  margin: 50px auto;
+
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+
+input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #A683E3;
+  }
+
+input[type="checkbox"] {
+    margin: 20px;
+  }
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: monospace;
+}

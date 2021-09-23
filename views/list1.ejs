@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Adaptive Learning Platform</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="box">
+    <%  for(var i=0;i<addNewCourses.length;i++){ %>
+      <div class="item">
+        <input type="checkbox">
+        <p><%= addNewCourses[i] %></p>
+      </div>
+    <%  } %>
+  </div>
+
+
+
+
+
+  <form class="" action="/list1.ejs" method="post">
+    <input type="text" name="newCourse">
+    <button type="submit" name="courseAddButton">Add Course</button>
+
+  </form>
+</body>
+
+</html>
